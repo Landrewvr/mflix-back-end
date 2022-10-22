@@ -11,7 +11,7 @@ app.use(cors());
 const moviesRouter = require('../routes/movies');
 
 // app.use('/movies', moviesRouter);
-app.use('/.netlify/functions/server', moviesRouter);
+app.use('/.netlify/functions/movies', moviesRouter);
 
 // app.listen(appPort,() => console.log(`Listening to port ${appPort}`));
 

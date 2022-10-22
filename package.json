@@ -2,7 +2,7 @@
   "name": "mflix-back-end",
   "version": "1.0.0",
   "description": "Mock backend piece of the mflix test application",
-  "main": "./src/server.js",
+  "main": "./src/movies.js",
   "scripts": {
     "start": "netlify-lambda serve src",
     "build": "netlify-lambda build src"
