@@ -2,15 +2,18 @@
   "name": "mflix-back-end",
   "version": "1.0.0",
   "description": "Mock backend piece of the mflix test application",
-  "main": "index.js",
+  "main": "./src/server.js",
   "scripts": {
-    "dstart": "nodemon server.js"
+    "start": "netlify-lambda serve src",
+    "build": "netlify-lambda build src"
   },
   "author": "Luis Veras",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "netlify-lambda": "^2.0.15",
+    "serverless-http": "^3.1.0"
   },
   "devDependencies": {
     "dotenv": "^16.0.3",
